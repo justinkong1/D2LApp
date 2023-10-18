@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/gradient_drawable"
+    tools:context=".modules">
+
+
+    <Button
+        android:id="@+id/Lab1"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 1 - Kotlin Basics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="119dp" />
+
+    <Button
+        android:id="@+id/Lab2"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 2 - Functions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab1" />
+    <Button
+        android:id="@+id/Lab3"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 3 - Classes / Objects"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab2" />
+    <Button
+        android:id="@+id/Lab4"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 4 - First Application"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab3" />
+    <Button
+        android:id="@+id/Lab5"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 5 - Layouts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab4" />
+    <Button
+        android:id="@+id/Lab6"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 6 - Navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab5" />
+    <Button
+        android:id="@+id/Lab7"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 7 - Fragment Lifecycle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab6" />
+    <Button
+        android:id="@+id/Lab8"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 8 - UI Layer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab7" />
+    <Button
+        android:id="@+id/Lab9"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 9 - Persistence Layer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab8" />
+    <Button
+        android:id="@+id/Lab10"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 10 - Advanced RecyclerView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab9" />
+    <Button
+        android:id="@+id/Lab11"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 11 - Internet Connection"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab10" />
+    <Button
+        android:id="@+id/Lab12"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 12 - Repository Pattern"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab11" />
+    <Button
+        android:id="@+id/Lab13"
+        android:layout_width="416dp"
+        android:layout_height="47dp"
+        android:text="Module 13 - App UI Design"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lab12" />
+</androidx.constraintlayout.widget.ConstraintLayout>

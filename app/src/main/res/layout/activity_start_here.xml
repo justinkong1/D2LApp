@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/gradient_drawable"
+    tools:context=".StartHere">
+
+    <Button
+        android:id="@+id/welcomeButton"
+        android:layout_width="410dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="205dp"
+        android:text="Welcome"
+        app:layout_constraintBottom_toTopOf="@+id/syllabusButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/syllabusButton"
+        android:layout_width="410dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="Syllabus"
+        app:layout_constraintBottom_toTopOf="@+id/labButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeButton" />
+
+    <Button
+        android:id="@+id/labButton"
+        android:layout_width="410dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="Lab Report Instruction"
+        app:layout_constraintBottom_toTopOf="@+id/projectButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/syllabusButton" />
+
+    <Button
+        android:id="@+id/projectButton"
+        android:layout_width="410dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="294dp"
+        android:text="Project Instruction"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labButton" />
+
+    <TextView
+        android:id="@+id/welcomeUser"
+        android:layout_width="137dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="81dp"
+        android:text="TextView"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/welcomeButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="207dp"
+        android:layout_height="230dp"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="454dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="47dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_200px_kennesaw_state_owls_logo_svg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

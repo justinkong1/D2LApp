@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "@drawable/gradient_drawable"
+    tools:context=".content">
+
+    <Button
+        android:id="@+id/startHere"
+        android:layout_width="239dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginBottom="1dp"
+        android:text="Start Here"
+        app:layout_constraintBottom_toTopOf="@+id/learningModules"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loggedInAs" />
+
+    <Button
+        android:id="@+id/learningModules"
+        android:layout_width="239dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="42dp"
+        android:text="Learning Modules"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startHere" />
+
+    <TextView
+        android:id="@+id/loggedInAs"
+        android:layout_width="197dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="103dp"
+        android:text="Logged in as: .."
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/startHere"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="212dp"
+        android:layout_height="242dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="77dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/learningModules"
+        app:srcCompat="@drawable/_200px_kennesaw_state_owls_logo_svg" />
+</androidx.constraintlayout.widget.ConstraintLayout>
